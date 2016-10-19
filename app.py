@@ -11,6 +11,8 @@ posts = [
     post2
 ]
 
+# Huy is here
+
 @app.route('/', methods=["GET", "POST"])
 def posts_api():
     if request.method == "GET":
